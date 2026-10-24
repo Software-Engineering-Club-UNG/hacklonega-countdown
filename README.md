@@ -22,6 +22,7 @@ The judging page also:
 - Shows the submission deadline under the clock with its own countdown. It flashes in the last 5 minutes.
 - Shows "pencils down." at 4:30, then points hackers to their judging room in Discord.
 - Shows the rest of the day: 1:00 Lunch, 4:30 Submit, 4:45 Judging, 5:30 Awards. The next item is highlighted and past ones are crossed out.
+- Shows 16 photos from the day. In the club look they open as retro desktop windows that load in blocky passes, with the time each was taken in the status bar. In the Hacktoberfest look they scroll past as a strip of photo cards where the world map was.
 
 ## Run it
 
