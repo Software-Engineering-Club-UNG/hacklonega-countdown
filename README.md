@@ -1,20 +1,31 @@
 # Hacklonega Countdown
 
-A projector countdown for Hacklonega, the Hacktoberfest Hack Day at the University of North Georgia in Dahlonega, Georgia, on October 24, 2026. It counts down to the 9:30 AM opening ceremony in MCCB 109.
+Projector countdowns for Hacklonega, the Hacktoberfest Hack Day at the University of North Georgia in Dahlonega, Georgia, on October 24, 2026.
+
+| Page | Counts down to |
+| --- | --- |
+| `index.html` | The 9:30 AM opening ceremony in MCCB 109 |
+| `judging.html` | 4:45 PM judging, with the 4:30 PM submission deadline |
 
 Made by the UNG Software Engineering Club.
 
-## What it does
+## What they do
 
-- Counts down to 9:30 AM Eastern, then switches to "Opening ceremony is starting now."
-- Swaps between two looks every 40 seconds with a pixel wipe: the SWE club Typewriter look and the Hacktoberfest 2026 look.
-- Bounces the Dahlonega steeple ball from [hacklonega.dev](https://hacklonega.dev) around the screen like the old DVD logo. When it hits a corner, the corner counter goes up.
-- Types out tips for arriving hackers: the Discord, check-in, rooms, and what to bring.
-- Plays no sound, so you can run your own music.
+- Count down to the event, then switch to "starting now." with confetti.
+- Swap between two looks every 40 seconds with a pixel wipe: the SWE club Typewriter look and the Hacktoberfest 2026 look.
+- Bounce the Dahlonega steeple ball from [hacklonega.dev](https://hacklonega.dev) around the screen like the old DVD logo. When it hits a corner, the corner counter goes up.
+- Type out tips for hackers.
+- Play no sound, so you can run your own music.
+
+The judging page also:
+
+- Shows the submission deadline under the clock with its own countdown. It flashes in the last 5 minutes.
+- Shows "pencils down." at 4:30, then points hackers to their judging room in Discord.
+- Shows the rest of the day: 1:00 Lunch, 4:30 Submit, 4:45 Judging, 5:30 Awards. The next item is highlighted and past ones are crossed out.
 
 ## Run it
 
-Download `index.html` and open it in a browser. It is one file with no build step.
+Download the page you want and open it in a browser. Each page is one file with no build step.
 
 | Key | Does |
 | --- | --- |
@@ -22,15 +33,16 @@ Download `index.html` and open it in a browser. It is one file with no build ste
 | `M` | Switch looks now |
 | `C` | Aim the ball at the next corner |
 
-Add `#demo` to the end of the address to preview the last 20 seconds and the 9:30 moment.
+Add `#demo` to the end of the address to preview the last 20 seconds. On the judging page, submissions close 10 seconds before the end of the demo.
 
-The cursor and key hints hide after a few seconds without mouse movement. The page asks the browser to keep the screen awake.
+The cursor and key hints hide after a few seconds without mouse movement. The pages ask the browser to keep the screen awake.
 
 The Hacktoberfest look loads Inter, Martian Mono, and Barlow Semi Condensed from Google Fonts. Offline, it falls back to system fonts.
 
-## Change the time
+## Change the times
 
-Edit `OPENING` near the top of the script in `index.html`. It is in UTC: 9:30 AM EDT is 13:30 UTC.
+- `index.html`: edit `OPENING` near the top of the script. It is in UTC: 9:30 AM EDT is 13:30 UTC.
+- `judging.html`: edit `JUDGING` and `DUE` near the top of the script. `eastern(16, 45)` means 4:45 PM Eastern. The schedule strip times are the `data-until` values in the markup, also in Eastern time.
 
 ## Credits
 

@@ -1,5 +1,7 @@
 # Asset provenance
 
+Both pages, `index.html` and `judging.html`, use the same assets.
+
 | Asset | Source and rights | Use |
 | --- | --- | --- |
 | Steeple ball artwork | The project-owned Dahlonega steeple composition from [Israel-Jauregui/Hacklonega](https://github.com/Israel-Jauregui/Hacklonega) (`src/App.tsx`), embedded as SVG | Texture for the bouncing ball. The back of the ball reuses the same landscape without the steeple |
