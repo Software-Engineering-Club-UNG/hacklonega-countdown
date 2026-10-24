@@ -6,6 +6,7 @@ Projector countdowns for Hacklonega, the Hacktoberfest Hack Day at the Universit
 | --- | --- |
 | `index.html` | The 9:30 AM opening ceremony in MCCB 109 |
 | `judging.html` | 4:45 PM judging, with the 4:30 PM submission deadline |
+| `closing.html` | Nothing. It plays during the closing ceremony and shows photos from the day |
 
 Made by the UNG Software Engineering Club.
 
@@ -24,6 +25,13 @@ The judging page also:
 - Shows the rest of the day: 1:00 Lunch, 4:30 Submit, 4:45 Judging, 5:30 Awards. The next item is highlighted and past ones are crossed out.
 - Shows 16 photos from the day. In the club look they open as retro desktop windows that load in blocky passes, with the time each was taken in the status bar. In the Hacktoberfest look they scroll past as a strip of photo cards where the world map was.
 
+The closing page is not a countdown. It keeps both looks, the 40 second swap, and the ball, and adds:
+
+- "Closing ceremony." as the headline in both looks.
+- 43 photos from the day, in the order they were taken. In the club look they load one at a time in a large retro photo viewer, with the time each was taken in the status bar. In the Hacktoberfest look they scroll past as a strip of photo cards.
+- Typed lines about the day in the README window and the search bar.
+- The schedule, with awards and wrap-up at 5:30 in MCCB 109.
+
 ## Run it
 
 Download the page you want and open it in a browser. Each page is one file with no build step.
@@ -34,7 +42,7 @@ Download the page you want and open it in a browser. Each page is one file with 
 | `M` | Switch looks now |
 | `C` | Aim the ball at the next corner |
 
-Add `#demo` to the end of the address to preview the last 20 seconds. On the judging page, submissions close 10 seconds before the end of the demo.
+On the countdown pages, add `#demo` to the end of the address to preview the last 20 seconds. On the judging page, submissions close 10 seconds before the end of the demo.
 
 The cursor and key hints hide after a few seconds without mouse movement. The pages ask the browser to keep the screen awake.
 

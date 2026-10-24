@@ -1,6 +1,6 @@
 # Asset provenance
 
-Both pages, `index.html` and `judging.html`, use the same assets, except that `judging.html` shows event photos where `index.html` shows the world map.
+All three pages, `index.html`, `judging.html`, and `closing.html`, use the same assets, except that `judging.html` and `closing.html` show event photos where `index.html` shows the world map.
 
 | Asset | Source and rights | Use |
 | --- | --- | --- |
@@ -13,6 +13,7 @@ Both pages, `index.html` and `judging.html`, use the same assets, except that `j
 | Snowflake logo | Snowflake's mark as shown in the sponsor list on hacktoberfest.com (2026), unaltered | Track credit in both looks. Trademark of Snowflake |
 | World map | Rasterized from [Natural Earth](https://www.naturalearthdata.com/) 1:110m land, public domain | Pixel map in the Hacktoberfest look of `index.html` |
 | Event photos | 16 photos of participants taken at Hacklonega on October 24, 2026, provided by the organizers. Resized to 1280px and stripped of all metadata, including location | Photo windows and the photo strip in `judging.html`, embedded as JPEG |
+| Closing photos | 43 photos taken at Hacklonega on October 24, 2026, provided by the organizers, including one drone photo. Converted from HEIC, resized to 1280px, and stripped of all metadata, including location | Photo viewer and the photo strip in `closing.html`, embedded as JPEG |
 | Hacktoberfest look | Newly authored layout. Its colors and type choices follow the hacktoberfest.com 2026 site | No Hacktoberfest logo artwork or site code is included |
 | Fonts | Inter, Martian Mono, and Barlow Semi Condensed from Google Fonts (SIL Open Font License). Courier New and Tahoma are system fonts | No font files are distributed |
 
