@@ -8,7 +8,7 @@ Projector countdowns for Hacklonega, the Hacktoberfest Hack Day at the Universit
 | `judging.html` | 4:45 PM judging, with the 4:30 PM submission deadline |
 | `closing.html` | Nothing. It plays during the closing ceremony and shows photos from the day |
 
-Made by the UNG Software Engineering Club.
+Made by the [UNG Software Engineering Club](https://codehawks.org/).
 
 ## What they do
 
